@@ -4,5 +4,9 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["text", "cobertura", "json"]
   }
 }
