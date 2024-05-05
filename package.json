@@ -7,6 +7,14 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["text", "cobertura", "json"]
+    "coverageReporters": [
+      "text",
+      "cobertura",
+      "json"
+    ]
+  },
+  "dependencies": {
+    "fft.js": "^4.0.4",
+    "node-wav": "^0.0.2"
   }
 }
